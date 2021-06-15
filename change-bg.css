@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: algerian;
+}
+@media (max-width :420px){
+    .btn-hero{
+     width: 100%;
+    }
+    h2{
+        width: 100%;
+    }
+}
+
+    /* nav bar css start  */
+nav{
+        background-color: #fff;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+h4{
+    color: rgb(16, 139, 170);
+    font-weight: 800;
+    padding-top: 20px;
+}
+.nav-brand{
+    display: flex;
+    justify-content: space-around;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* container css start  */
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+
+}
+h2{
+    text-align: center;
+    background-color: black;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.btn-hero{
+    width: 50%;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+}
